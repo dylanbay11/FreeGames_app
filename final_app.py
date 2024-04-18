@@ -14,7 +14,7 @@ import plotly.express as px
 #     return pd.read_csv(url, na_values=['', 'NA', 'NaN', None]) 
 # df = load_data()
 
-df = pd.read_csv("~/Desktop/dshw/EGS_project/nodesc.csv")
+df = pd.read_csv("nodesc.csv")
 
 # begin streamlit stuff
 st.title("Epic Games Store Giveaways")
